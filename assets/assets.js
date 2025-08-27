@@ -89,6 +89,7 @@ export const workData = [
         title: 'Portfolio',
         description: 'Portfolio showcasing front-end skills with Next.js.',
         bgImage: work1,
+        link:'https://unique-centaur-d5bae5.netlify.app/'
     },
     {
         title: 'Weather App ',
@@ -112,13 +113,7 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web development', description: 'Programming and developing websites using the latest programming technologies...', details: [
-      "Convert designs to code",
-      "Implement interactive elements",
-      "Ensure device compatibility",
-      "Enhance accessibility",
-      "Create a dashboard for the owner"
-    ], link: '' },
+    { icon: assets.web_icon, title: 'Web development', description: 'Programming and developing websites using the latest programming technologies...',  link: '' },
     // { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     // { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
