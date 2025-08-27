@@ -48,7 +48,13 @@ const Work = (isDarkMode) => {
                 key={index}
                 
                 className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
-                 style={{backgroundImage : `url(${project.bgImage.src})`}}>
+                  > 
+                  {/*hover effect black & white*/}
+                     <Image 
+                     src={project.bgImage} 
+                     alt={project.title}
+                     fill
+                     className="object-cover filter grayscale group-hover:grayscale-0 transition duration-500"/>
                     
                     
                     <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 
