@@ -37,11 +37,15 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
+
 import work1 from './work-1.png';
 import work2 from './work-2.png';
 import work3 from './work-3.png';
 import work4 from './work-4.png';
-
+import git1 from './git-1.png';
+import link from './link.png';
+import insta from './insta.png';
+import twitter from './twitter.png';
 
 export const assets = {
     user_image,
@@ -81,7 +85,12 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    logo_2
+    logo_2,
+    git1,
+    twitter,
+    insta,
+    link
+
 };
 
 export const workData = [
@@ -121,7 +130,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML & CSS, Tailwind CSS, JavaScript, React.js, Next.js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Diploma In Mechanical, BE in Computer Science. ' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Diploma In Mechanical Engineering, BE in Computer Science Engineering. ' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects.' }
 ];
 

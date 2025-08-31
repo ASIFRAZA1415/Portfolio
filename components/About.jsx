@@ -5,6 +5,7 @@ import {motion} from "motion/react";
 
 
 
+
 const About = (isDarkMode) => {
   return (
     <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
@@ -63,8 +64,9 @@ const About = (isDarkMode) => {
                   dark:border-white dark:hover:shadow-white dark:hover:bg-[#2a004a]/50'
                    key={index}>
 
-                    <Image src={isDarkMode ? iconDark : icon} alt='{title}' 
-                    className='w-7 mt-3 '/>
+                    <Image src={isDarkMode ? iconDark : icon} alt={title}
+                    
+                    className='w-7 mt-3 brightness-0 dark:invert'/>
                     <h3 className='my-4 font-semibold text-gray-700  dark:text-white'>{title}</h3>
                     <p className='text-gray-600 text-sm dark:text-white/80'>
                     {description}</p>

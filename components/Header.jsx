@@ -1,7 +1,7 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
-import { motion } from "motion/react" 
+import { motion } from "framer-motion" 
 
 
 const Header = () => {
@@ -9,11 +9,20 @@ const Header = () => {
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col 
     items-center jsutify-center gap-4 pt-12'>
       <motion.div 
-      initial={{scale: 0}}
-      whileInView={{scale: 1}}
-      transition={{duration: 0.8, type: 'spring, stiffness: 100'}} >
-
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32 mr-6'/>
+      
+       animate={{ boxShadow: [
+    "0 0 0px rgba(168, 85, 247, 0.4)",
+    "0 0 30px rgba(19, 138, 243, 0.8)",
+    "0 0 0px rgba(201, 158, 242, 0.4)"
+     ] }}
+     transition={{ duration: 3, repeat: Infinity }}
+     className="rounded-full p-[3px] bg-gradient-to-tr from-fuchsia-500 via-purple-500 to-cyan-400"
+>
+      <Image 
+        src={assets.profile_img} 
+        alt="profile" 
+        className="rounded-full w-36 h-36 object-cover"
+      />
     
       </motion.div>
        <motion.h3 
