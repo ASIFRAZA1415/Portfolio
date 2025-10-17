@@ -10,7 +10,7 @@ const Foooter = ({isDarkMode}) => {
     <div className='mt-20'>
       
       <div className='text-center '>
-        <Image src={isDarkMode ? assets.logo : assets.logo} alt='' className= 'w-24 sm:w-20 md:w-22 lg:w-25 mx-auto mb-1 w-30 mx-auto mb-0.2 dark:invert dark:brightness-0'/>
+        <Image src={isDarkMode ? assets.logo : assets.logo} alt='logo' className= 'w-35 sm:w-25 md:w-27 lg:w-35 mx-auto  w-35 mx-auto mb-0.2 dark:invert dark:brightness-0'/>
         
         <div className='w-max flex items-center gap-2 mx-auto'>
             <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6'/>

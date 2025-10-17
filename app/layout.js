@@ -17,7 +17,7 @@ const  ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - GreatStack",
+  title: "Portfolio",
   description: "Created with Next.js and Tailwind CSS",
 };
 

@@ -39,13 +39,13 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
       <nav className={`w-full fixed-top-0 px-3 lg:px-8 xl:px-[8%] py 
       flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-[#11001F] dark:shadow-white/20" : ""} `}>
         <a href='#top'>
-            <Image src={assets.logo} alt='' className='w-20 sm:w-20 md:w-22 lg:w-23 xl:w-25 ml-0 sm:ml-[-10px] md:ml-[-20px] cursor-pointer mr-5 sm:mr-8 md:mr-11 dark:invert dark:brightness-0'/> 
+            <Image src={assets.logo} alt='' className='w-20 sm:w-23 md:w-25 lg:w-35 xl:w-35 ml-0 sm:ml-[-10px] md:ml-[-20px] cursor-pointer mr-5 sm:mr-8 md:mr-11 dark:invert dark:brightness-0'/> 
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}  `}>
             <li><a href='#home'>Home</a></li>
             <li><a className='font-Ovo' href='#about'>About me</a></li>
             <li><a className='font-Ovo' href='#services'>Services</a></li>
-            <li><a className='font-Ovo' href='#work'>My Work</a></li>
+            <li><a className='font-Ovo' href='#work'>My work</a></li>
             <li><a className='font-Ovo' href='#contact'>Contact me </a></li>
             
         </ul>
@@ -75,7 +75,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             <li><a href='#home'>Home</a></li>
             <li><a className='font-Ovo'onClick={closeMenu} href='#about'>About me</a></li>
             <li><a className='font-Ovo'onClick={closeMenu} href='#services'>Services</a></li>
-            <li><a className='font-Ovo'onClick={closeMenu} href='#work'>My Work</a></li>
+            <li><a className='font-Ovo'onClick={closeMenu} href='#work'>My work</a></li>
             <li><a className='font-Ovo'onClick={closeMenu} href='#contact'>Contact me </a></li>
         
         </ul>
