@@ -33,15 +33,15 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
   
   return (
     <>
-    <div className='fixed right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden'>
+    <div className='fixed flex justify-between right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden'>
       <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
-      <nav className={`w-full fixed-top-0 px-3 lg:px-8 xl:px-[8%] py 
+      <nav className={`w-full  fixed-top-0 px-3 sm:px-4 md:px-7 lg:px-3 xl:px-[4%] py-
       flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-[#11001F] dark:shadow-white/20" : ""} `}>
         <a href='#top'>
-            <Image src={assets.logo} alt='' className='w-20 sm:w-23 md:w-25 lg:w-35 xl:w-35 ml-0 sm:ml-[-10px] md:ml-[-20px] cursor-pointer mr-5 sm:mr-8 md:mr-11 dark:invert dark:brightness-0'/> 
+            <Image src={assets.logo} alt='' className='w-25 sm:w-17 md:w-22 lg:w-35 xl:w-35  pt-5 ml-0 sm:ml-[-10px] md:ml-[-20px] cursor-pointer mr-5 sm:mr-8 md:mr-11 dark:invert dark:brightness-0'/> 
         </a>
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}  `}>
+        <ul className={`hidden md:flex items-center   gap-6 lg:gap-8 rounded-full px-11 py-4 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}  `}>
             <li><a href='#home'>Home</a></li>
             <li><a className='font-Ovo' href='#about'>About me</a></li>
             <li><a className='font-Ovo' href='#services'>Services</a></li>
