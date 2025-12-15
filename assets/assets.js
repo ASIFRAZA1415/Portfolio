@@ -95,10 +95,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Portfolio',
-        description: 'Portfolio showcasing front-end skills with Next.js.',
+        title: 'Xlent Institute Website',
+        description: 'Developed the official responsive website for Xlent Institute.',
         bgImage: work1,
-        link:'https://unique-centaur-d5bae5.netlify.app/'
+        link:'https://www.xlentinstitute.com/'
     },
     {
         title: 'Weather App ',
@@ -114,11 +114,11 @@ export const workData = [
         link: 'https://asifraza1415.github.io/spotify-clone/',
         
     },
-     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: work3,
-    },
+    //  {
+    //     title: 'Photography site',
+    //     description: 'Web Design',
+    //     bgImage: work3,
+    // },
 ]
 
 export const serviceData = [
