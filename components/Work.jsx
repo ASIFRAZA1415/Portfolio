@@ -66,17 +66,16 @@ const Work = (isDarkMode) => {
                 </div>
                 <div>
                   <a 
-                    href={project.link} 
-                    target='_blank' 
-                    rel='noopener noreferrer' 
-                    className='border rounded-full border-black w-9 aspect-square flex items-center
+                     href={project.link} 
+                     target='_blank' 
+                     rel='noopener noreferrer' 
+                     className='border rounded-full border-black w-9 aspect-square flex items-center
                      justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition mt-4'>
-  <Image src={assets.send_icon} alt='send icon' className='w-5'/>
-</a>
+                     <Image src={assets.send_icon} alt='send icon' className='w-5'/>
+                    </a>
 
                 </div>
                 
-
                 </div>
                 </motion.div>
   
